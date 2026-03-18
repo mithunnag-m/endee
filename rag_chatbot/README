@@ -1,0 +1,27 @@
+# 🤖 AI RAG Chatbot using Endee
+
+## 🚀 Overview
+This project is a Retrieval Augmented Generation (RAG) chatbot that allows users to upload PDF documents and ask questions based on the content.
+
+The system retrieves relevant information using semantic search and provides concise answers.
+
+## 🔥 Features
+- 📄 PDF Upload and Processing
+- 🔍 Semantic Search using Embeddings
+- 🤖 Intelligent Answer Generation (RAG)
+- 💬 Works even without PDF (default knowledge base)
+- 🌐 Streamlit Web Application
+
+## 🧠 How It Works
+1. User uploads a PDF or asks a question
+2. Text is converted into embeddings
+3. Relevant chunks are retrieved using similarity search
+4. System generates a meaningful answer from retrieved data
+
+## 🏗️ Architecture
+User Query → Embedding → Vector Search → Retrieved Context → Answer
+
+## ⚙️ Setup Instructions
+```bash
+pip install -r rag_chatbot/requirements.txt
+streamlit run rag_chatbot/app.py
