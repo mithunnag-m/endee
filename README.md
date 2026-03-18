@@ -20,7 +20,7 @@ This project is a Retrieval Augmented Generation (RAG) chatbot that allows users
 ```bash
 pip install -r rag_chatbot/requirements.txt
 streamlit run rag_chatbot/app.py
-
+```
 ## Use Case
 Document Q&A system using AI
 
