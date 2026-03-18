@@ -17,6 +17,7 @@ This project is a Retrieval Augmented Generation (RAG) chatbot that allows users
 5. Generate answer
 
 ## Setup
+---
 -pip install -r rag_chatbot/requirements.txt
 -streamlit run rag_chatbot/app.py
 
